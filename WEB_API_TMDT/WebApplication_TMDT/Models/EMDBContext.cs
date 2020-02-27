@@ -18,6 +18,11 @@ namespace WebApplication_TMDT.Models
 
         
         public virtual DbSet<Users> Users { get; set; }
+        public virtual DbSet<Bill> Bill { get; set; }
+        public virtual DbSet<BillDetail> BillDetail { get; set; }
+        public virtual DbSet<Cart> Cart { get; set; }
+        public virtual DbSet<Category> Category { get; set; }
+        public virtual DbSet<Product> Product { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

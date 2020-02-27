@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {}
+    "D:\\Project_TMDT\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {
+    "D:\\Project_TMDT\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
+        "projectUniqueName": "D:\\Project_TMDT\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
         "projectName": "WebApplication_TMDT",
-        "projectPath": "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
-        "packagesPath": "C:\\Users\\lthienduc\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\obj\\",
+        "projectPath": "D:\\Project_TMDT\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project_TMDT\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lthienduc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

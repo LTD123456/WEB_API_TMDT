@@ -36,6 +36,7 @@ namespace WebApplication_TMDT
             services.AddScoped<IRepository, Repository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUsers, UsersDTO>();
+            services.AddScoped<IBill, BillDTO>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
