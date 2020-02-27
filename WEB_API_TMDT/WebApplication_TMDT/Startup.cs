@@ -6,10 +6,15 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WebApplication_TMDT.DAL;
+using WebApplication_TMDT.DTO;
+using WebApplication_TMDT.DTO.interfaceDTO;
+using WebApplication_TMDT.Models;
 
 namespace WebApplication_TMDT
 {
@@ -26,6 +31,11 @@ namespace WebApplication_TMDT
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<EMDBContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("AppDbConnection")));
+            services.AddScoped<IRepository, Repository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUsers, UsersDTO>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

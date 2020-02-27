@@ -8,7 +8,7 @@ namespace WebApplication_TMDT.DAL
 {
     public interface IUnitOfWork:IDisposable
     {
-        WED_API_TMDTContext context { get; }
+        EMDBContext context { get; }
         void SaveChages();
     }
 }

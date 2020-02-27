@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {}
+    "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {}
   },
   "projects": {
-    "D:\\git\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {
+    "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
+        "projectUniqueName": "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
         "projectName": "WebApplication_TMDT",
-        "projectPath": "D:\\git\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\WEB_API_TMDT\\WebApplication_TMDT\\obj\\",
+        "projectPath": "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\WebApplication_TMDT.csproj",
+        "packagesPath": "C:\\Users\\lthienduc\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\WEB_API_TMDT\\WEB_API_TMDT\\WebApplication_TMDT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lthienduc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,9 +51,17 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.0.20, )"
             }
           },
           "imports": [

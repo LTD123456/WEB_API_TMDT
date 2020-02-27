@@ -8,8 +8,8 @@ namespace WebApplication_TMDT.DAL
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public WED_API_TMDTContext context { get; }
-        public UnitOfWork( WED_API_TMDTContext cntext)
+        public EMDBContext context { get; }
+        public UnitOfWork(EMDBContext context)
         {
             this.context = context;
         }
